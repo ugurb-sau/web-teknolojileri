@@ -1,0 +1,50 @@
+/* Genel yazı tipi ve arka plan */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Başlıklar */
+h1, h2, h3, h4 {
+  color: #00509e;
+  margin-top: 20px;
+}
+
+/* Navbar özelleştirme */
+.navbar {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+/* Kartlar (film, yer, vs) */
+.card {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+.card:hover {
+  transform: scale(1.03);
+}
+
+/* Slider resimleri */
+.carousel-item img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* Form elementleri */
+input, select, textarea {
+  border-radius: 5px !important;
+}
+
+/* Vue formu için */
+#vueForm {
+  background-color: #fff;
+}
