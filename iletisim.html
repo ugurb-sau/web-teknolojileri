@@ -21,7 +21,7 @@
           <li class="nav-item"><a class="nav-link" href="index.html">Hakkımda</a></li>
           <li class="nav-item"><a class="nav-link" href="cv.html">Özgeçmiş</a></li>
           <li class="nav-item"><a class="nav-link" href="sehir.html">Memleketim</a></li>
-           <li class="nav-item"><a class="nav-link" href="mirasimiz.html">Mirasimiz</a></li>
+          <li class="nav-item"><a class="nav-link" href="mirasimiz.html">Mirasımız</a></li>
           <li class="nav-item"><a class="nav-link" href="ilgi-alanlarim.html">İlgi Alanlarım</a></li>
           <li class="nav-item"><a class="nav-link active" href="iletisim.html">İletişim</a></li>
         </ul>
@@ -29,11 +29,13 @@
     </div>
   </nav>
 
-  <!-- Form -->
-  <div class="container my-5">
-    <h2>İletişim Formu</h2>
-    <form id="iletisimForm" action="form-sonuc.php" method="POST">
-      <div class="mb-3">
+<div class="container my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+      <div class="card shadow p-4">
+        <h2 class="text-center mb-4">İletişim Formu</h2>
+        <form id="iletisimForm" action="form-sonuc.php" method="POST" onsubmit="return jsKontrol()">
+          <div class="mb-3">
         <label for="ad" class="form-label">Ad</label>
         <input type="text" class="form-control" id="ad" name="ad">
       </div>
@@ -67,6 +69,13 @@
       <button type="reset" class="btn btn-secondary">Temizle</button>
     </form>
   </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
 
   <script>
     function jsKontrol() {
@@ -103,7 +112,7 @@
 </body>
 </html>
 <hr>
-<h4 class="mt-5">Vue.js ile Form Kontrolü</h4>
+<h4 class="text-center text-primary mb-4">Vue.js ile Doğrulama</h4>
 
 <div id="vueForm" class="border rounded p-4 mt-3">
   <div class="mb-3">
