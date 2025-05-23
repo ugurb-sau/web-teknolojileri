@@ -44,7 +44,57 @@ input, select, textarea {
   border-radius: 5px !important;
 }
 
-/* Vue formu için */
+.card {
+  border: none;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+input, select, textarea {
+  border-radius: 10px !important;
+  padding: 10px !important;
+}
+
+button {
+  border-radius: 8px !important;
+  padding: 10px 20px !important;
+}
+
+body {
+  background: linear-gradient(to bottom right, #f0f4f8, #e0e7ee);
+}
+
 #vueForm {
-  background-color: #fff;
+  background-color: #e6f0ff; /* açık mavi arka plan */
+  border: 2px solid #a3c4f3;
+  border-radius: 16px;
+  padding: 30px;
+  margin-top: 40px;
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.1);
+}
+
+#vueForm input,
+#vueForm select,
+#vueForm textarea {
+  border-radius: 10px;
+  border: 1px solid #b3d1ff;
+}
+
+#vueForm label {
+  font-weight: bold;
+  color: #003366;
+}
+
+#vueForm button {
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 20px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#vueForm button:hover {
+  background-color: #0056b3;
 }
