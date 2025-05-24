@@ -35,9 +35,16 @@ footer {
 
 /* Slider resimleri */
 .carousel-item img {
-  max-height: 400px;
-  object-fit: cover;
+  max-height: 600px;
+  width: auto;
+  display: block;
+  margin: auto;
+  object-fit: scale-down;
+  background-color: #f0f0f0;
 }
+
+
+
 
 /* Form elementleri */
 input, select, textarea {
